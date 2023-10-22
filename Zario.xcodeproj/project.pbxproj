@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2CE6672AE4687B003F3FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6662AE4687B003F3FC2 /* AppDelegate.swift */; };
+		8D2CE6692AE4687B003F3FC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6682AE4687B003F3FC2 /* SceneDelegate.swift */; };
+		8D2CE66B2AE4687B003F3FC2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE66A2AE4687B003F3FC2 /* MainViewController.swift */; };
+		8D2CE6702AE4687C003F3FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D2CE66F2AE4687C003F3FC2 /* Assets.xcassets */; };
+		8D2CE67E2AE4690E003F3FC2 /* ZarioSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE67D2AE4690E003F3FC2 /* ZarioSettings.swift */; };
+		8D2CE6802AE46A90003F3FC2 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE67F2AE46A90003F3FC2 /* AuthenticationViewController.swift */; };
+		8D2CE6852AE46B0E003F3FC2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6842AE46B0E003F3FC2 /* String+Extension.swift */; };
+		8D2CE6AF2AE46FA4003F3FC2 /* ScreenTimeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6AE2AE46FA4003F3FC2 /* ScreenTimeSelectionView.swift */; };
+		8D2CE6B12AE46FC7003F3FC2 /* ScreenTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6B02AE46FC7003F3FC2 /* ScreenTimeModel.swift */; };
+		8D2CE6B32AE47133003F3FC2 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6B22AE47133003F3FC2 /* View+Extension.swift */; };
+		8D2CE6B92AE47526003F3FC2 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6B82AE47526003F3FC2 /* UIViewController+Extension.swift */; };
+		8D2CE6BB2AE47FE7003F3FC2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6BA2AE47FE7003F3FC2 /* SettingsViewController.swift */; };
+		8D704D4F2AE53993005E1720 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2CE6D72AE48AE6003F3FC2 /* ManagedSettings.framework */; };
+		8D704D502AE53993005E1720 /* ManagedSettingsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2CE70D2AE4A099003F3FC2 /* ManagedSettingsUI.framework */; };
+		8D704D532AE53993005E1720 /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D704D522AE53993005E1720 /* ShieldConfigurationExtension.swift */; };
+		8D704D582AE53993005E1720 /* ZarioShieldConfiguration.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8D704D4E2AE53993005E1720 /* ZarioShieldConfiguration.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8D704D5C2AE539AE005E1720 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6842AE46B0E003F3FC2 /* String+Extension.swift */; };
+		8D704D622AE539C4005E1720 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2CE6D72AE48AE6003F3FC2 /* ManagedSettings.framework */; };
+		8D704D652AE539C4005E1720 /* ShieldActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D704D642AE539C4005E1720 /* ShieldActionExtension.swift */; };
+		8D704D6A2AE539C4005E1720 /* ZarioShieldAction.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8D704D612AE539C4005E1720 /* ZarioShieldAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8D704D732AE539E0005E1720 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2CE6E92AE48B5D003F3FC2 /* DeviceActivity.framework */; };
+		8D704D762AE539E0005E1720 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D704D752AE539E0005E1720 /* DeviceActivityMonitorExtension.swift */; };
+		8D704D7B2AE539E0005E1720 /* ZarioDeviceActivity.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8D704D722AE539E0005E1720 /* ZarioDeviceActivity.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8D704D7F2AE539E7005E1720 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6842AE46B0E003F3FC2 /* String+Extension.swift */; };
+		8D704D802AE539E8005E1720 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE6842AE46B0E003F3FC2 /* String+Extension.swift */; };
+		8D704D822AE53CA2005E1720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D2CE66F2AE4687C003F3FC2 /* Assets.xcassets */; };
+		8D704D862AE54497005E1720 /* ZarioSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE67D2AE4690E003F3FC2 /* ZarioSettings.swift */; };
+		8D704D892AE54955005E1720 /* ZarioSettings+ScreenTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D704D882AE54955005E1720 /* ZarioSettings+ScreenTime.swift */; };
+		8D704D8A2AE54A08005E1720 /* ZarioSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE67D2AE4690E003F3FC2 /* ZarioSettings.swift */; };
+		8D704D8B2AE54A09005E1720 /* ZarioSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE67D2AE4690E003F3FC2 /* ZarioSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D704D562AE53993005E1720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2CE65B2AE4687B003F3FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D704D4D2AE53993005E1720;
+			remoteInfo = ZarioShieldConfiguration;
+		};
+		8D704D682AE539C4005E1720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2CE65B2AE4687B003F3FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D704D602AE539C4005E1720;
+			remoteInfo = ZarioShieldAction;
+		};
+		8D704D792AE539E0005E1720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2CE65B2AE4687B003F3FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D704D712AE539E0005E1720;
+			remoteInfo = ZarioDeviceActivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D2CE6AD2AE46F59003F3FC2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8D704D582AE53993005E1720 /* ZarioShieldConfiguration.appex in Embed Foundation Extensions */,
+				8D704D7B2AE539E0005E1720 /* ZarioDeviceActivity.appex in Embed Foundation Extensions */,
+				8D704D6A2AE539C4005E1720 /* ZarioShieldAction.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2CE6D02AE4865E003F3FC2 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D2CE6632AE4687B003F3FC2 /* Zario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2CE6662AE4687B003F3FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D2CE6682AE4687B003F3FC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D2CE66A2AE4687B003F3FC2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8D2CE66F2AE4687C003F3FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D2CE6742AE4687C003F3FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2CE67D2AE4690E003F3FC2 /* ZarioSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZarioSettings.swift; sourceTree = "<group>"; };
+		8D2CE67F2AE46A90003F3FC2 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		8D2CE6842AE46B0E003F3FC2 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		8D2CE6AE2AE46FA4003F3FC2 /* ScreenTimeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeSelectionView.swift; sourceTree = "<group>"; };
+		8D2CE6B02AE46FC7003F3FC2 /* ScreenTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeModel.swift; sourceTree = "<group>"; };
+		8D2CE6B22AE47133003F3FC2 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		8D2CE6B72AE47334003F3FC2 /* Zario.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Zario.entitlements; sourceTree = "<group>"; };
+		8D2CE6B82AE47526003F3FC2 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		8D2CE6BA2AE47FE7003F3FC2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8D2CE6D72AE48AE6003F3FC2 /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = System/Library/Frameworks/ManagedSettings.framework; sourceTree = SDKROOT; };
+		8D2CE6E92AE48B5D003F3FC2 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		8D2CE70D2AE4A099003F3FC2 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = System/Library/Frameworks/ManagedSettingsUI.framework; sourceTree = SDKROOT; };
+		8D704D4E2AE53993005E1720 /* ZarioShieldConfiguration.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ZarioShieldConfiguration.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D704D522AE53993005E1720 /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
+		8D704D542AE53993005E1720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D704D552AE53993005E1720 /* ZarioShieldConfiguration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZarioShieldConfiguration.entitlements; sourceTree = "<group>"; };
+		8D704D612AE539C4005E1720 /* ZarioShieldAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ZarioShieldAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D704D642AE539C4005E1720 /* ShieldActionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldActionExtension.swift; sourceTree = "<group>"; };
+		8D704D662AE539C4005E1720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D704D672AE539C4005E1720 /* ZarioShieldAction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZarioShieldAction.entitlements; sourceTree = "<group>"; };
+		8D704D722AE539E0005E1720 /* ZarioDeviceActivity.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ZarioDeviceActivity.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D704D752AE539E0005E1720 /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
+		8D704D772AE539E0005E1720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D704D782AE539E0005E1720 /* ZarioDeviceActivity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZarioDeviceActivity.entitlements; sourceTree = "<group>"; };
+		8D704D882AE54955005E1720 /* ZarioSettings+ScreenTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZarioSettings+ScreenTime.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D2CE6602AE4687B003F3FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D704D4B2AE53993005E1720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D704D4F2AE53993005E1720 /* ManagedSettings.framework in Frameworks */,
+				8D704D502AE53993005E1720 /* ManagedSettingsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D704D5E2AE539C4005E1720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D704D622AE539C4005E1720 /* ManagedSettings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D704D6F2AE539E0005E1720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D704D732AE539E0005E1720 /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D2CE65A2AE4687B003F3FC2 = {
+			isa = PBXGroup;
+			children = (
+				8D2CE6652AE4687B003F3FC2 /* Zario */,
+				8D704D632AE539C4005E1720 /* ZarioShieldAction */,
+				8D704D512AE53993005E1720 /* ZarioShieldConfiguration */,
+				8D704D742AE539E0005E1720 /* ZarioDeviceActivity */,
+				8D2CE68C2AE46F58003F3FC2 /* Frameworks */,
+				8D2CE6642AE4687B003F3FC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D2CE6642AE4687B003F3FC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D2CE6632AE4687B003F3FC2 /* Zario.app */,
+				8D704D4E2AE53993005E1720 /* ZarioShieldConfiguration.appex */,
+				8D704D612AE539C4005E1720 /* ZarioShieldAction.appex */,
+				8D704D722AE539E0005E1720 /* ZarioDeviceActivity.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D2CE6652AE4687B003F3FC2 /* Zario */ = {
+			isa = PBXGroup;
+			children = (
+				8D2CE6B72AE47334003F3FC2 /* Zario.entitlements */,
+				8D2CE6812AE46AC6003F3FC2 /* Extensions */,
+				8D2CE67C2AE468F2003F3FC2 /* Model */,
+				8D2CE67B2AE468E9003F3FC2 /* Controller */,
+				8D2CE67A2AE468DE003F3FC2 /* View */,
+				8D2CE6662AE4687B003F3FC2 /* AppDelegate.swift */,
+				8D2CE6682AE4687B003F3FC2 /* SceneDelegate.swift */,
+				8D2CE66F2AE4687C003F3FC2 /* Assets.xcassets */,
+				8D2CE6742AE4687C003F3FC2 /* Info.plist */,
+			);
+			path = Zario;
+			sourceTree = "<group>";
+		};
+		8D2CE67A2AE468DE003F3FC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D2CE6AE2AE46FA4003F3FC2 /* ScreenTimeSelectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D2CE67B2AE468E9003F3FC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D2CE66A2AE4687B003F3FC2 /* MainViewController.swift */,
+				8D2CE67F2AE46A90003F3FC2 /* AuthenticationViewController.swift */,
+				8D2CE6BA2AE47FE7003F3FC2 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D2CE67C2AE468F2003F3FC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D2CE67D2AE4690E003F3FC2 /* ZarioSettings.swift */,
+				8D704D882AE54955005E1720 /* ZarioSettings+ScreenTime.swift */,
+				8D2CE6B02AE46FC7003F3FC2 /* ScreenTimeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D2CE6812AE46AC6003F3FC2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D2CE6842AE46B0E003F3FC2 /* String+Extension.swift */,
+				8D2CE6B22AE47133003F3FC2 /* View+Extension.swift */,
+				8D2CE6B82AE47526003F3FC2 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D2CE68C2AE46F58003F3FC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D2CE6D72AE48AE6003F3FC2 /* ManagedSettings.framework */,
+				8D2CE6E92AE48B5D003F3FC2 /* DeviceActivity.framework */,
+				8D2CE70D2AE4A099003F3FC2 /* ManagedSettingsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D704D512AE53993005E1720 /* ZarioShieldConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				8D704D522AE53993005E1720 /* ShieldConfigurationExtension.swift */,
+				8D704D542AE53993005E1720 /* Info.plist */,
+				8D704D552AE53993005E1720 /* ZarioShieldConfiguration.entitlements */,
+			);
+			path = ZarioShieldConfiguration;
+			sourceTree = "<group>";
+		};
+		8D704D632AE539C4005E1720 /* ZarioShieldAction */ = {
+			isa = PBXGroup;
+			children = (
+				8D704D642AE539C4005E1720 /* ShieldActionExtension.swift */,
+				8D704D662AE539C4005E1720 /* Info.plist */,
+				8D704D672AE539C4005E1720 /* ZarioShieldAction.entitlements */,
+			);
+			path = ZarioShieldAction;
+			sourceTree = "<group>";
+		};
+		8D704D742AE539E0005E1720 /* ZarioDeviceActivity */ = {
+			isa = PBXGroup;
+			children = (
+				8D704D752AE539E0005E1720 /* DeviceActivityMonitorExtension.swift */,
+				8D704D772AE539E0005E1720 /* Info.plist */,
+				8D704D782AE539E0005E1720 /* ZarioDeviceActivity.entitlements */,
+			);
+			path = ZarioDeviceActivity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D2CE6622AE4687B003F3FC2 /* Zario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2CE6772AE4687C003F3FC2 /* Build configuration list for PBXNativeTarget "Zario" */;
+			buildPhases = (
+				8D2CE65F2AE4687B003F3FC2 /* Sources */,
+				8D2CE6602AE4687B003F3FC2 /* Frameworks */,
+				8D2CE6612AE4687B003F3FC2 /* Resources */,
+				8D2CE6AD2AE46F59003F3FC2 /* Embed Foundation Extensions */,
+				8D2CE6D02AE4865E003F3FC2 /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D704D572AE53993005E1720 /* PBXTargetDependency */,
+				8D704D692AE539C4005E1720 /* PBXTargetDependency */,
+				8D704D7A2AE539E0005E1720 /* PBXTargetDependency */,
+			);
+			name = Zario;
+			productName = Zario;
+			productReference = 8D2CE6632AE4687B003F3FC2 /* Zario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D704D4D2AE53993005E1720 /* ZarioShieldConfiguration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D704D592AE53993005E1720 /* Build configuration list for PBXNativeTarget "ZarioShieldConfiguration" */;
+			buildPhases = (
+				8D704D4A2AE53993005E1720 /* Sources */,
+				8D704D4B2AE53993005E1720 /* Frameworks */,
+				8D704D4C2AE53993005E1720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZarioShieldConfiguration;
+			productName = ZarioShieldConfiguration;
+			productReference = 8D704D4E2AE53993005E1720 /* ZarioShieldConfiguration.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8D704D602AE539C4005E1720 /* ZarioShieldAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D704D6B2AE539C4005E1720 /* Build configuration list for PBXNativeTarget "ZarioShieldAction" */;
+			buildPhases = (
+				8D704D5D2AE539C4005E1720 /* Sources */,
+				8D704D5E2AE539C4005E1720 /* Frameworks */,
+				8D704D5F2AE539C4005E1720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZarioShieldAction;
+			productName = ZarioShieldAction;
+			productReference = 8D704D612AE539C4005E1720 /* ZarioShieldAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8D704D712AE539E0005E1720 /* ZarioDeviceActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D704D7C2AE539E0005E1720 /* Build configuration list for PBXNativeTarget "ZarioDeviceActivity" */;
+			buildPhases = (
+				8D704D6E2AE539E0005E1720 /* Sources */,
+				8D704D6F2AE539E0005E1720 /* Frameworks */,
+				8D704D702AE539E0005E1720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZarioDeviceActivity;
+			productName = ZarioDeviceActivity;
+			productReference = 8D704D722AE539E0005E1720 /* ZarioDeviceActivity.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D2CE65B2AE4687B003F3FC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8D2CE6622AE4687B003F3FC2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8D704D4D2AE53993005E1720 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8D704D602AE539C4005E1720 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8D704D712AE539E0005E1720 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8D2CE65E2AE4687B003F3FC2 /* Build configuration list for PBXProject "Zario" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D2CE65A2AE4687B003F3FC2;
+			productRefGroup = 8D2CE6642AE4687B003F3FC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D2CE6622AE4687B003F3FC2 /* Zario */,
+				8D704D4D2AE53993005E1720 /* ZarioShieldConfiguration */,
+				8D704D602AE539C4005E1720 /* ZarioShieldAction */,
+				8D704D712AE539E0005E1720 /* ZarioDeviceActivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D2CE6612AE4687B003F3FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2CE6702AE4687C003F3FC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D704D4C2AE53993005E1720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D704D822AE53CA2005E1720 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D704D5F2AE539C4005E1720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D704D702AE539E0005E1720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D2CE65F2AE4687B003F3FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2CE6B12AE46FC7003F3FC2 /* ScreenTimeModel.swift in Sources */,
+				8D2CE67E2AE4690E003F3FC2 /* ZarioSettings.swift in Sources */,
+				8D2CE6BB2AE47FE7003F3FC2 /* SettingsViewController.swift in Sources */,
+				8D2CE6AF2AE46FA4003F3FC2 /* ScreenTimeSelectionView.swift in Sources */,
+				8D704D892AE54955005E1720 /* ZarioSettings+ScreenTime.swift in Sources */,
+				8D2CE66B2AE4687B003F3FC2 /* MainViewController.swift in Sources */,
+				8D2CE6802AE46A90003F3FC2 /* AuthenticationViewController.swift in Sources */,
+				8D2CE6672AE4687B003F3FC2 /* AppDelegate.swift in Sources */,
+				8D2CE6852AE46B0E003F3FC2 /* String+Extension.swift in Sources */,
+				8D2CE6B32AE47133003F3FC2 /* View+Extension.swift in Sources */,
+				8D2CE6B92AE47526003F3FC2 /* UIViewController+Extension.swift in Sources */,
+				8D2CE6692AE4687B003F3FC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D704D4A2AE53993005E1720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D704D862AE54497005E1720 /* ZarioSettings.swift in Sources */,
+				8D704D5C2AE539AE005E1720 /* String+Extension.swift in Sources */,
+				8D704D532AE53993005E1720 /* ShieldConfigurationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D704D5D2AE539C4005E1720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D704D8A2AE54A08005E1720 /* ZarioSettings.swift in Sources */,
+				8D704D7F2AE539E7005E1720 /* String+Extension.swift in Sources */,
+				8D704D652AE539C4005E1720 /* ShieldActionExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D704D6E2AE539E0005E1720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D704D8B2AE54A09005E1720 /* ZarioSettings.swift in Sources */,
+				8D704D802AE539E8005E1720 /* String+Extension.swift in Sources */,
+				8D704D762AE539E0005E1720 /* DeviceActivityMonitorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D704D572AE53993005E1720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D704D4D2AE53993005E1720 /* ZarioShieldConfiguration */;
+			targetProxy = 8D704D562AE53993005E1720 /* PBXContainerItemProxy */;
+		};
+		8D704D692AE539C4005E1720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D704D602AE539C4005E1720 /* ZarioShieldAction */;
+			targetProxy = 8D704D682AE539C4005E1720 /* PBXContainerItemProxy */;
+		};
+		8D704D7A2AE539E0005E1720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D704D712AE539E0005E1720 /* ZarioDeviceActivity */;
+			targetProxy = 8D704D792AE539E0005E1720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D2CE6752AE4687C003F3FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D2CE6762AE4687C003F3FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D2CE6782AE4687C003F3FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zario/Zario.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVZY57RJZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zario/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PGF.Zario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D2CE6792AE4687C003F3FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zario/Zario.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVZY57RJZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zario/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PGF.Zario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D704D5A2AE53993005E1720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZarioShieldConfiguration/ZarioShieldConfiguration.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVZY57RJZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZarioShieldConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZarioShieldConfiguration;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PGF.Zario.ZarioShieldConfiguration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D704D5B2AE53993005E1720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZarioShieldConfiguration/ZarioShieldConfiguration.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVZY57RJZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZarioShieldConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZarioShieldConfiguration;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PGF.Zario.ZarioShieldConfiguration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D704D6C2AE539C4005E1720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZarioShieldAction/ZarioShieldAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVZY57RJZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZarioShieldAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZarioShieldAction;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PGF.Zario.ZarioShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D704D6D2AE539C4005E1720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZarioShieldAction/ZarioShieldAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVZY57RJZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZarioShieldAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZarioShieldAction;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PGF.Zario.ZarioShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D704D7D2AE539E0005E1720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZarioDeviceActivity/ZarioDeviceActivity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVZY57RJZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZarioDeviceActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZarioDeviceActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PGF.Zario.ZarioDeviceActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D704D7E2AE539E0005E1720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZarioDeviceActivity/ZarioDeviceActivity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVZY57RJZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZarioDeviceActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZarioDeviceActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PGF.Zario.ZarioDeviceActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D2CE65E2AE4687B003F3FC2 /* Build configuration list for PBXProject "Zario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2CE6752AE4687C003F3FC2 /* Debug */,
+				8D2CE6762AE4687C003F3FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2CE6772AE4687C003F3FC2 /* Build configuration list for PBXNativeTarget "Zario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2CE6782AE4687C003F3FC2 /* Debug */,
+				8D2CE6792AE4687C003F3FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D704D592AE53993005E1720 /* Build configuration list for PBXNativeTarget "ZarioShieldConfiguration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D704D5A2AE53993005E1720 /* Debug */,
+				8D704D5B2AE53993005E1720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D704D6B2AE539C4005E1720 /* Build configuration list for PBXNativeTarget "ZarioShieldAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D704D6C2AE539C4005E1720 /* Debug */,
+				8D704D6D2AE539C4005E1720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D704D7C2AE539E0005E1720 /* Build configuration list for PBXNativeTarget "ZarioDeviceActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D704D7D2AE539E0005E1720 /* Debug */,
+				8D704D7E2AE539E0005E1720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D2CE65B2AE4687B003F3FC2 /* Project object */;
+}
